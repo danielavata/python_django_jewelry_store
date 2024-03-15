@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h1>Bine ați venit!</h1>
+
+
+    {% include 'partials/product_block.html' with title='Cele mai noi produse' %}
+
+{% endblock %}
